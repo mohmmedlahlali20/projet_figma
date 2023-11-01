@@ -3,13 +3,13 @@
 /* Navbar styles */
 .FIG {
     background-color: #040404;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /* padding: 10px; */
+    display : flex;
+    justify-content: end;
+    margin-top: 10px;
     position: fixed;
-    top: 0;
-    left: 0;
+    top:-10px ;
+    padding-right: 30px;
     width: 100%;
     z-index: 100;
     box-shadow: 0 0 10px #000;
@@ -19,12 +19,25 @@
 }
 
 .FIG ul {
+  
     display: flex;
     align-items: center;
     list-style: none;
     margin: 0;
+    gap:55px ;
 }
-
+ .FIG .h4{
+ position: relative;
+ top: 1%;
+ right:1000px ;
+ z-index: 999;
+ font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
 .FIG ul li {
     margin-left: 20px;
 }
@@ -37,7 +50,13 @@
 .FIG ul li a {
     color: white;
     text-decoration: none;
-}
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    }
 
 .FIG ul li a:hover {
     color: #08f608;
@@ -64,7 +83,7 @@
     cursor: pointer;
     color: #fff;
     font-size: 20px;
-    transition: all 0.3s ease;
+   transition: all 0.3s ease; 
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -82,7 +101,7 @@
     text-align: center;
     padding: 10px;
     box-sizing: border-box;
-    transition: all 0.3s ease;
+    transition: all .3s ease;
 }
 
 /* HOME */
@@ -94,7 +113,15 @@
 }
 
 .HOME1 .HOM11 {
+    margin-top: 100px;
     width: 678.896px;
+    position: relative;
+    right: 600px;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .HOME2 {
@@ -114,7 +141,6 @@
 }
 
 .salut-zin {
-
     z-index: 3;
     position: absolute;
     left: 47%;
@@ -132,19 +158,14 @@
     position: absolute;
     display: flex;
     left: 14%;
-    text-overflow: clip;
     font-size: 300px;
 }
 
-
-
-
-
 /* Portfolio*/
-
 
 h1 {
     font-size: 36px;
+    /* color: red; */
 }
 
 .container {
@@ -225,6 +246,12 @@ h1 {
     border-radius: 10px;
     padding: 10px;
     margin-bottom: 20px;
+    font-family: Playfair Display;
+    font-size: 81.308px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: math;
 }
 
 .dd {
@@ -245,7 +272,6 @@ h1 {
 }
 
 .allo {
-  
     margin-top: 77%;
 }
 .sec-head {
@@ -369,8 +395,7 @@ h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    text-transform: capitalize;
-
+  
 }
 
 .name input {
@@ -422,6 +447,15 @@ h1 {
     text-transform: capitalize;
     outline: none;
 }
+.port{
+    font-family: Playfair Display;
+    font-size: 81.308px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: relative;
+    left:700px ;
+}
 
 button {
     margin-top: 70px;
@@ -435,4 +469,18 @@ button {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+.footer  {
+    padding-top: 90px;
+  
+}
+.footer h3 {
+    padding-top: 90px;
+    position: relative;
+    left: 50px;
+  
+}
+.foo{
+    display: flex;
+    gap: 25px;
 }

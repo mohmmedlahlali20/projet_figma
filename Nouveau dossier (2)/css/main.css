@@ -140,63 +140,7 @@ body {
   left: 330px;
   border: 2px solid rgba(255,255,255,1);
 }
-.v15_33 {
-  width: 855px;
-  background: url("../images/v15_33.png");
-  opacity: 1;
-  position: absolute;
-  top: 8229px;
-  left: 330px;
-  border: 2px solid rgba(255,255,255,1);
-}
-.v15_34 {
-  width: 113px;
-  color: rgba(187,187,187,1);
-  position: absolute;
-  top: 7707px;
-  left: 330px;
-  font-family: Inter;
-  font-weight: Regular;
-  font-size: 25px;
-  opacity: 1;
-  text-align: left;
-}
-.v15_35 {
-  width: 194px;
-  color: rgba(187,187,187,1);
-  position: absolute;
-  top: 7869px;
-  left: 330px;
-  font-family: Inter;
-  font-weight: Regular;
-  font-size: 25px;
-  opacity: 1;
-  text-align: left;
-}
-.v15_36 {
-  width: 316px;
-  color: rgba(187,187,187,1);
-  position: absolute;
-  top: 8042px;
-  left: 330px;
-  font-family: Inter;
-  font-weight: Regular;
-  font-size: 25px;
-  opacity: 1;
-  text-align: left;
-}
-.v15_37 {
-  width: 165px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 8813px;
-  left: 656px;
-  font-family: Inter;
-  font-weight: Bold;
-  font-size: 22px;
-  opacity: 1;
-  text-align: center;
-}
+
 .v15_38 {
   width: 143px;
   color: rgba(255,255,255,1);
